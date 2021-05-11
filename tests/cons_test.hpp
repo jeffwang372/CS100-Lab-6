@@ -6,6 +6,12 @@
 #include <iostream>
 #include "../header/rectangle.hpp"
 
+TEST(ConsTest, ConsDefault) {
+    Rectangle* test = new Rectangle();
+    EXPECT_EQ(test->get_width(), 0);
+    EXPECT_EQ(test->get_height(), 0);
+}
+
 TEST(ConsTest, ConsEvaluateZero) {
     Rectangle* test = new Rectangle(0, 0);
     EXPECT_EQ(test->get_width(), 0);
