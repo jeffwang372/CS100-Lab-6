@@ -37,7 +37,7 @@ jobs:
 
       - name: Run cmake
         run:
-          cmake3 .
+          cmake .
 
       - name: Run make
         run:
