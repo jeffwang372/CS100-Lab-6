@@ -29,9 +29,18 @@ int Rectangle::area() {
 int Rectangle::perimeter() {
 	if (this->width == 0 || this->height == 0) {
 		return 0;
+	}
 	else {
 		return (2 * this->width) + (2 * this->height);
 	}
+}
+
+int Rectangle::get_width() {
+	return this->width;
+}
+
+int Rectangle::get_height() {
+        return this->height;
 }
 
 #endif 
