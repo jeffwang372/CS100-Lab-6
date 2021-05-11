@@ -1,7 +1,8 @@
 #ifndef RECTANGLE_CPP
 #define RECTANGLE_CPP
 
-#include "rectangle.hpp"
+#include <iostream>
+#include "../header/rectangle.hpp"
 
 Rectangle::Rectangle() {
 	width = 0;
